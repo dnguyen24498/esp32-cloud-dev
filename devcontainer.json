@@ -1,0 +1,17 @@
+{
+  "name": "ESP32 Dev",
+  "image": "espressif/idf:release-v5.2", 
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "espressif.esp-idf-extension",
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "idf.py --version"
+}
