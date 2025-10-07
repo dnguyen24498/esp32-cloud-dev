@@ -1,0 +1,7 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python",
+    "files.associations": {
+        "bus.h": "c",
+        "service.h": "c"
+    }
+}
